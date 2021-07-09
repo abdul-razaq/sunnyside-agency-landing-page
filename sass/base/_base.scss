@@ -1,0 +1,11 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $root-font-family;
+  font-size: $root-font-size;
+  line-height: 1.7;
+  background-color: $color-white;
+}
