@@ -1,32 +1,20 @@
 .hamburger {
-	height: 0.8rem;
-	width: 7rem;
-	background-color: $color-white;
-  position: relative;
+	@include hamburger;
+	position: relative;
 
 	&::before {
-    content: "";
-		display: block;
-		height: 0.8rem;
-		width: 7rem;
-		background-color: $color-white;
-		position: absolute;
+		@include hamburger-pseudo-element;
 		bottom: 2.3rem;
 	}
 
 	&::after {
-		content: "";
-		display: block;
-		height: 0.8rem;
-		width: 7rem;
-		background-color: $color-white;
-		position: absolute;
+		@include hamburger-pseudo-element;
 		top: 2.3rem;
 	}
 }
 
 @media screen and (min-width: 434px) {
-  .hamburger {
-    display: none;
-  }
+	.hamburger {
+		display: none;
+	}
 }

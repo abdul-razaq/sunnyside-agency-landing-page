@@ -1,0 +1,12 @@
+@mixin hamburger {
+	display: block;
+	height: 0.8rem;
+	width: 7rem;
+	background-color: $color-white;
+}
+
+@mixin hamburger-pseudo-element {
+	@include hamburger;
+	content: "";
+	position: absolute;
+}
