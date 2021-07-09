@@ -1,4 +1,8 @@
 .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
 
   .logo-container {
 
@@ -9,14 +13,25 @@
   }
 
   &__items {
-
+    display: inline-flex;
   }
 
   &__item {
-
+    &:not(:last-child) {
+      margin-right: 5rem;
+    }
   }
 
   &__link {
-    
+    color: $color-white;
+    font-weight: $barlow-font-weight-semi-bold;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .navigation {
+    &__items {
+      display: none;
+    }
   }
 }

@@ -1,3 +1,16 @@
 .heading-primary {
-  
+}
+
+.active {
+	background-color: $color-white;
+	text-transform: uppercase;
+	padding: 1.5rem 3rem;
+	border-radius: 5rem;
+  margin-top: -1.5rem;
+
+	& a {
+		font-family: $secondary-font-family;
+		color: $color-dark-blue-secondary;
+		font-weight: $fraunces-font-weight-black;
+	}
 }

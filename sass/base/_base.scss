@@ -11,3 +11,21 @@ body {
 	max-width: 144rem;
 	margin: 0 auto;
 }
+
+@media screen and (max-width: 960px) {
+	html {
+		font-size: .6rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	html {
+		font-size: .4rem;
+	}
+}
+
+@media screen and (max-width: 534px) {
+	html {
+		font-size: .3rem;
+	}
+}
