@@ -1,14 +1,14 @@
 .hamburger {
-	@include hamburger;
+	@include bar;
 	position: relative;
 
 	&::before {
-		@include hamburger-pseudo-element;
+		@include bar-pseudo-element;
 		bottom: 2.3rem;
 	}
 
 	&::after {
-		@include hamburger-pseudo-element;
+		@include bar-pseudo-element;
 		top: 2.3rem;
 	}
 }
