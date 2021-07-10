@@ -4,6 +4,7 @@
 	width: 7rem;
 	background-color: $color-white;
 }
+
 @mixin bar-pseudo-element {
 	@include bar;
 	content: "";
