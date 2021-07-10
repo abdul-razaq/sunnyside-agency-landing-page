@@ -41,6 +41,10 @@
 	}
 }
 
+.closed {
+  display: none;
+}
+
 @media screen and (min-width: 434px) {
 	.navigation-mobile {
 		display: none;
