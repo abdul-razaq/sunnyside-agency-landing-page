@@ -13,3 +13,7 @@ a:link,
 a:visited {
 	text-decoration: none;
 }
+
+a[class^="learn-more"] {
+	text-decoration: underline;
+}
