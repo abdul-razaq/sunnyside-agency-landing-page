@@ -1,0 +1,27 @@
+.learn-more {
+  display: block;
+  font-family: $secondary-font-family;
+  color: $color-dark-blue-secondary;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: $fraunces-font-weight-black;
+
+  &::after {
+    content: "";
+    display: block;
+    height: .8rem;
+    width: 12.5rem;
+    margin-top: -8px;
+    border-radius: 10rem;
+    margin-left: -1rem;
+    margin-top: -1rem;
+  }
+
+  &--yellow::after {
+    background-color: rgba($color-yellow, .4);
+  }
+
+  &--brown::after {
+    background-color: rgba($color-soft-red, .4);
+  }
+}
