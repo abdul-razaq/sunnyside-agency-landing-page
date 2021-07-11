@@ -7,12 +7,27 @@
 	font-weight: $fraunces-font-weight-black;
 }
 
+.heading-secondary {
+	font-family: $secondary-font-family;
+	font-size: 4rem;
+	font-weight: $fraunces-font-weight-black;
+	color: $color-dark-blue-secondary;
+
+	&--small {
+		font-size: 2.5rem;
+	}
+}
+
+.heading-tertiary {
+	// Client Testimonials heading
+}
+
 .active {
 	background-color: $color-white;
 	text-transform: uppercase;
 	padding: 1.5rem 3rem;
 	border-radius: 5rem;
-  margin-top: -1.5rem;
+	margin-top: -1.5rem;
 
 	& a {
 		font-family: $secondary-font-family;
