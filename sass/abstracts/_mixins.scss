@@ -38,7 +38,7 @@
 }
 
 @mixin about-bgImage-mobile($bg-image) {
-	@include about-bgImage($bg-image, $color-dark-cyan-primary);
+	background-image: url($bg-image);
 
 	padding: 100% 3.5% 15% 3.5%;
 
