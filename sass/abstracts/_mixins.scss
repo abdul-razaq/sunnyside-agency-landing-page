@@ -10,3 +10,9 @@
 	content: "";
 	position: absolute;
 }
+
+@mixin about-description {
+	font-size: 1.7rem;
+	font-weight: $fraunces-font-weight-bold;
+	color: $color-dark-greyish-blue;
+}
