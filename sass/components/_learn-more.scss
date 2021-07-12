@@ -1,26 +1,38 @@
 .learn-more {
-  display: block;
-  font-family: $secondary-font-family;
-  color: $color-dark-blue-secondary;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  font-weight: $fraunces-font-weight-black;
+	display: block;
+	font-family: $secondary-font-family;
+	color: $color-dark-blue-secondary;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: $fraunces-font-weight-black;
 
-  &::after {
-    content: "";
-    display: block;
-    height: .8rem;
-    width: 12.7rem;
-    border-radius: 10rem;
-    margin-left: -1rem;
-    margin-top: -1rem;
-  }
+	&::after {
+		content: "";
+		display: block;
+		height: 0.8rem;
+		width: 12.7rem;
+		border-radius: 10rem;
+		margin-left: -1rem;
+		margin-top: -1rem;
 
-  &--yellow::after {
-    background-color: rgba($color-yellow, .4);
-  }
+	}
+	&--yellow::after {
+		background-color: rgba($color-yellow, 0.4);
+	}
 
-  &--brown::after {
-    background-color: rgba($color-soft-red, .4);
-  }
+	&--brown::after {
+		background-color: rgba($color-soft-red, 0.4);
+	}
+}
+
+@media screen and (max-width: 434px) {
+	.learn-more {
+		font-size: 3.5rem;
+
+		&::after {
+			height: 2rem;
+			width: 27rem;
+      margin-top: -2.5rem;
+		}
+	}
 }
