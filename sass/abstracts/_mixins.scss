@@ -18,9 +18,7 @@
 }
 
 @mixin about-bgImage($bg-image, $color) {
-	padding-top: 60%;
-	padding-left: 23%;
-	padding-right: 23%;
+	padding: 60% 23% 0 23%;
 	text-align: center;
 	font-weight: $fraunces-font-weight-black;
 	color: $color;
@@ -30,11 +28,32 @@
 	background-position: center;
 
 	&__heading {
-		color: $color;
+		color: currentColor;
 		margin-bottom: 2rem;
 	}
 
 	&__description {
 		font-weight: $barlow-font-weight-semi-bold;
+	}
+}
+
+@mixin transform-standout-mobile {
+	padding: 15% 6%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	&__heading {
+		margin-bottom: 5rem;
+		font-size: 6.5rem;
+		text-align: center;
+	}
+
+	&__description {
+		margin-bottom: 6rem;
+		font-size: 3.8rem;
+		text-align: center;
 	}
 }
