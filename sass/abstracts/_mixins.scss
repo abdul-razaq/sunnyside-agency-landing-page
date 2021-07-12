@@ -37,6 +37,22 @@
 	}
 }
 
+@mixin about-bgImage-mobile($bg-image) {
+	@include about-bgImage($bg-image, $color-dark-cyan-primary);
+
+	padding: 100% 3.5% 15% 3.5%;
+
+	&__heading {
+		font-size: 6rem;
+		margin-bottom: 4rem;
+	}
+
+	&__description {
+		font-size: 3.5rem;
+		font-weight: $barlow-font-weight-semi-bold;
+	}
+}
+
 @mixin transform-standout-mobile {
 	padding: 15% 6%;
 	height: 100%;
