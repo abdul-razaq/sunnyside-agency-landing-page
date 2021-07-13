@@ -91,13 +91,10 @@
 		}
 
 		.photography {
-			@include about-bgImage-mobile(
-				"../images/mobile/image-photography.jpg",
-			);
+			@include about-bgImage-mobile("../images/mobile/image-photography.jpg");
 		}
 	}
 }
-
 
 .testimony {
 	padding: 12rem 0rem;
@@ -109,5 +106,21 @@
 	}
 
 	&__heading {
+	}
+}
+
+@media screen and (max-width: 434px) {
+	.testimony {
+		padding: 12rem 0rem;
+		.text-box {
+			text-align: center;
+			& > h3 {
+				display: inline-block;
+			}
+		}
+
+		&__heading {
+			font-size: 3rem;
+		}
 	}
 }
