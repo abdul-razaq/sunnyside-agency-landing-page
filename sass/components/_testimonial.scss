@@ -29,7 +29,7 @@
     }
 
     &__text {
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       line-height: 1.8;
       color: $color-dark-blue-tertiary;
       font-weight: $barlow-font-weight-semi-bold;
@@ -38,11 +38,15 @@
     .author {
 
       &__name {
-
+        font-family: $secondary-font-family;
+        font-weight: $fraunces-font-weight-black;
+        font-size: 1.7rem;
       }
 
       &__position {
-
+        font-size: 1.3rem;
+        font-weight: $barlow-font-weight-semi-bold;
+        color: $color-greyish-blue;
       }
     }
   }
