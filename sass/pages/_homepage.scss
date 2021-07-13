@@ -97,3 +97,17 @@
 		}
 	}
 }
+
+
+.testimony {
+	padding: 12rem 0rem;
+	.text-box {
+		text-align: center;
+		& > h3 {
+			display: inline-block;
+		}
+	}
+
+	&__heading {
+	}
+}
