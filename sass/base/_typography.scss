@@ -33,10 +33,20 @@
 	padding: 1.5rem 3rem;
 	border-radius: 5rem;
 	margin-top: -1.5rem;
+	transition: all .4s;
 
 	& a {
 		font-family: $secondary-font-family;
 		color: $color-dark-blue-secondary;
 		font-weight: $fraunces-font-weight-black;
+		transition: all .4s;
+	}
+
+	&:hover {
+		background-color: $color-dark-blue-primary;
+	}
+
+	&:hover a {
+		color: $color-white;
 	}
 }
