@@ -126,5 +126,20 @@
 }
 
 .gallery {
-	width: 100%;
+	max-width: 144rem;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+
+	&__image {
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 434px) {
+	.gallery {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
