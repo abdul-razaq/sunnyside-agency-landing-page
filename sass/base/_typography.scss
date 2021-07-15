@@ -33,13 +33,13 @@
 	padding: 1.5rem 3rem;
 	border-radius: 5rem;
 	margin-top: -1.5rem;
-	transition: all .4s;
+	transition: all 0.4s;
 
 	& a {
 		font-family: $secondary-font-family;
 		color: $color-dark-blue-secondary;
 		font-weight: $fraunces-font-weight-black;
-		transition: all .4s;
+		transition: all 0.4s;
 	}
 
 	&:hover {
@@ -53,13 +53,8 @@
 
 @media screen and (max-width: 434px) {
 	.heading-primary {
-	font-family: $secondary-font-family;
-	font-size: 8rem;
-	text-transform: uppercase;
-	color: $color-white;
-	letter-spacing: 1rem;
-	text-align: center;
-	font-weight: $fraunces-font-weight-black;
-	line-height: 1.3;
-}
+		font-size: 8rem;
+		text-align: center;
+		line-height: 1.3;
+	}
 }
